@@ -24,7 +24,7 @@ jobs:
     - name: Deploy AWS Lambda function
       uses: yvesgurcan/deploy-lambda-function@v0.0.5
       with:
-        package: "~/work/lambda-game-buzzer/lambda-game-buzzer/build/output/gameBuzzerHandler.main.latest.zip"
+        package: "gameBuzzerHandler.main.latest.zip"
         function-name: "gameBuzzHandler"
         AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
         AWS_SECRET_ID: ${{ secrets.AWS_SECRET_ID }}

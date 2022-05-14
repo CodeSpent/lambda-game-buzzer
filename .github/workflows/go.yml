@@ -18,7 +18,7 @@ jobs:
       # uses: sevco/go-lambda-action@9e66f05f48818d2062a49cfb3341488b671899ea
       uses: sevco/go-lambda-action@v3.0.1
       with:
-        files: "gameBuzzHandler.go"
+        files: "gameBuzzerHandler.go"
         # Git credentials - https://git-scm.com/docs/git-credential-store
         credentials: ${{ secrets.GIT_CREDENTIALS }}
     - name: Deploy AWS Lambda function

@@ -14,6 +14,8 @@ func handleRequest(ctx context.Context, event events.APIGatewayWebsocketProxyReq
 		break
 	case "$disconnect":
 		break
+	case "$roundStart":
+		break
 	case "$buzz":
 		break
 	case "$default":
